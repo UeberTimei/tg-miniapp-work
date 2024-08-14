@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: "tg_miniapp_work",
+  base: "tg-miniapp-work",
 });

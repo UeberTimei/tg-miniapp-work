@@ -1,0 +1,36 @@
+.zodiac-details {
+  padding: 0 15px;
+}
+
+.zodiac-name {
+  text-transform: capitalize;
+  font-size: 28px;
+}
+
+.period-selector {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.period-selected {
+  background-color: rgb(170, 170, 170);
+}
+
+.period-unselected {
+  background-color: rgb(212, 212, 212);
+}
+.period-selector > button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
